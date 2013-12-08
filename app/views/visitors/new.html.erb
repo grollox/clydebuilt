@@ -1,1 +1,29 @@
-<h3>Home</h3>
+<% content_for :title do %>Rails Bootstrap<% end %>
+<% content_for :description do %>Rails Bootstrap Example<% end %>
+<div id="myCarousel" class="carousel slide">
+<ol class="carousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1"></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+<div class="item active">
+<%= image_tag "yearproject-1970.jpg" %>
+<div class="carousel-caption text-center">
+<h4>Yearproject 1970</h4>
+</div>
+</div>
+<div class="item">
+<%= image_tag "yearproject-1971.jpg" %>
+<div class="carousel-caption text-center">
+<h4>Yearproject 1971</h4>
+</div>
+</div>
+<div class="item">
+<%= image_tag "yearproject-1980.jpg" %>
+<div class="carousel-caption text-center">
+<h4>Yearproject 1980</h4>
+</div>
+</div>
+</div>
+</div>
