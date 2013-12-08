@@ -9,10 +9,13 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <%# application layout styled for Twitter Bootstrap 2.3 %>
-    <header>
-      <%= render 'layouts/navigation' %>
-    </header>
+<header class="navbar navbar-fixed-top">
+<nav class="navbar-inner">
+<div class="container">
+<%= render 'layouts/navigation' %>
+</div>
+</nav>
+</header>
     <main role="main">
       <div class="container">
         <div class="content">
