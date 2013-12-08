@@ -3,10 +3,10 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  Web Dev: Graeme Lockwood
+  Site: not yet!
+  Twitter: @graeme_lockwood
+  Location: Berlin/Glasgow
 
 /* THANKS */
   Daniel Kehoe (@rails_apps) for the RailsApps project

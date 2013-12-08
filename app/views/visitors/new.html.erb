@@ -40,16 +40,16 @@
 <%= f.error_notification %>
 <%= f.input :favorite, :collection => Visitor::IMAGE_LABELS, label: false, as:
 :radio_buttons, :item_wrapper_class => 'inline' %>
-<%= f.input :comment, label: false, :placeholder => 'Add a comment...' %>
+<%= f.input :comment, label: false, :placeholder => 'Add a comment too...' %>
 </div>
 <div class="modal-footer">
-<%= f.submit "Choose!", :class => "btn btn-primary" %>
+<%= f.submit "Choose", :class => "btn btn-primary" %>
 <a class="btn" data-dismiss="modal" href="#">Close</a>
 </div>
 <% end %>
 </div>
 <div id="call-to-action">
 <a class="btn btn-primary btn-large" data-toggle="modal"
-href="#modal-form">Choose!</a>
+href="#modal-form">Go on - Choose!</a>
 </div>
 </div>

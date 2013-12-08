@@ -6,7 +6,7 @@ def create
 @visitor = Visitor.new(secure_params)
 if @visitor.valid?
 	@visitor.update_spreadsheet
-flash[:notice] = "Chose #{@visitor.favorite}."
+flash[:notice] = "You chose #{@visitor.favorite}."
 render :new
 else
 render :new
